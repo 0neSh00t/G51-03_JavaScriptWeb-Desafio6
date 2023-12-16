@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("../img/inversion.jpeg") no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 2rem, auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  text-shadow: -10px 4px 14px white;
+}
+
+h2,
+p {
+  font-size: 1rem;
+  margin: 0, 5rem 0;
+}
+
+.graphic {
+  width: 65%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contenedor {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: -15px 17px 10px 3px #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem auto;
+  border: 4px solid rgba(135, 255, 99, 0.644);
+  text-shadow: -10px 4px 14px white;
+}
+
+input,
+select {
+  width: 60%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: #fffefeec;
+}
+
+button {
+  width: 40%;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: 2px solid rgba(135, 255, 99, 0.644);
+  border-radius: 5px;
+  background: #e33257;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cambio {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 1rem;
+  color: rgba(135, 255, 99, 0.644);
+  text-shadow: -2px 2px 3px black;
+}
+
+.cambio h3 {
+  margin: 0 1rem;
+}
